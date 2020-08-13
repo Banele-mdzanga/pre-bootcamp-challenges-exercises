@@ -1,5 +1,5 @@
 //Task 2
-console.log("Task 2")
+console.log("task 2")
 var x = 1 + 1 * 2;
 var y = (1 + 1) * 2;
 var z = 1 + ( 1 * 2 );

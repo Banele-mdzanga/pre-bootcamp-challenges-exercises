@@ -1,11 +1,12 @@
 //Task 7
 function celToFar(c){
-  f =( 1.8*c)+ 32;
-  console.log(f);
+ var f =( 1.8*c)+ 32;
+  return f;
 }
 celToFar(58);
 function farToCel(far){
-  cel= ( far-32)/1.8 ;
-  console.log(cel);
+  var cel= ( far-32)/1.8 ;
+  return cel;
 }
-farToCel(78);
+console.log(farToCel(78));
+console.log(celToFar(25));

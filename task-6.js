@@ -2,15 +2,15 @@
 function largestNum(a,b,c){
                  //largest number
   if((a>b) && (a>c)){
-    console.log(a);
+    return a;
   }else{
     if((b > a) && (b > c)){
-     console.log(b);
+     return b;
     }else{
       if((c > a) && (c > b)){
-      console.log(c);
+      return c;
       }
     }
   }
 }
-largestNum(12,4,65);
+console.log(largestNum(12,4,65));

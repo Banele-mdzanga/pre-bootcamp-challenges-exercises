@@ -8,4 +8,4 @@ function findChar(str1,str2){
     });
 console.log(comArr);
 }
-findChar('yufsbfbdivobwiuvblKDBVBUIHBVBJKB','j,hybvlbvsjklbvDHIYGBYISFBUI')
+findChar('lnknyufsbfbdivobwiuvblKDBVBUIHBVBJKB','klnhbj,hybvlbvsjklbvDHIYGBYISFBUI')

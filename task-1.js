@@ -1,5 +1,5 @@
 //Task1
-console.log('Task 1');
+console.log("task 1");
 var x = 0;
 var y = 1;
 console.log(x);

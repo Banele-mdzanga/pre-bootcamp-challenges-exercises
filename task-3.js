@@ -1,15 +1,15 @@
 //Task 3
 function task3(num1,num2){
-   k = num1 + num2;
+  var k = num1 + num2;
   if((num1==65)||( num2 ==65)|| ( k==65)) {
-    console.log("True");
+    return "True";
   }
   else {
-    console.log("False");
+    return "False";
   }
 }
 // Check if function is working
-task3(34,65);
-task3(65,1);
-task3(21,44);
-task3(1,2);
+console.log(task3(34,65));
+console.log(task3(65,1));
+console.log(task3(21,44));
+console.log(task3(1,2));
