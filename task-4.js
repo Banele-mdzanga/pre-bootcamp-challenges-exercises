@@ -2,12 +2,12 @@
 function task4(num1,num2){
    k = num1 + num2;
  stringK= k.toString();                 
-  var kcheck = stringK.indexOf('3');     //check if k contains a 3
+  var kcheck = stringK.indexOf('3');     
   if((num1==3)&&( kcheck > -1)||( num2 ==3) &&( kcheck > -1)) {
-    return "True";
+    return true;
   }
   else {
-    return "False";
+    return false;
   }
 }
 // Check if function is working

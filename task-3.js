@@ -2,10 +2,10 @@
 function task3(num1,num2){
   var k = num1 + num2;
   if((num1==65)||( num2 ==65)|| ( k==65)) {
-    return "True";
+    return true;
   }
   else {
-    return "False";
+    return false;
   }
 }
 // Check if function is working
